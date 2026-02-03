@@ -1,0 +1,11 @@
+[book]
+title = "Sistemi e Reti - Quinto anno - 2026"
+authors = ["Claudio Capobianco"]
+language = "it"
+
+[build]
+create-missing = true
+
+[output.html]
+additional-css = ["custom.css"]
+git-repository-url = "https://github.com/wbigger/2026-book-5y-network"
