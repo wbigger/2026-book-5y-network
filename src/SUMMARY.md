@@ -1,7 +1,5 @@
 # Summary
 
-- [Vademecum](./chapter_1.md)
-- [User Centered Design][def2]
-
-
-[def2]: ./chapter_2.md
+- [Introduzione](./01-intro.md)
+- [Leggere il testo](./02-reading.md)
+- [Dimensionamento](./03-sizing.md)

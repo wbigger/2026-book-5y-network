@@ -16,23 +16,9 @@ Il commissario esterno non conosce il vostro percorso, non sa come lavorate abit
 
 ---
 
-## 1. PRIMA DELLA PROVA: PREPARAZIONE STRATEGICA
 
-### □ RIPASSARE I FONDAMENTALI, non i dettagli estremi
-- Meglio padroneggiare bene i concetti base che sapere poco di tutto
-- Focus su: definizioni precise, differenze tra tecnologie, quando/perché si usa una soluzione
 
-### □ ALLENARSI CON IL TEMPO
-- La seconda prova ha una durata limitata: abituatevi a scrivere risposte complete in tempi realistici
-- Durante le simulazioni, cronometrate ogni fase
-
-### □ PREPARARE UN "GLOSSARIO MENTALE"
-- Ripassate la terminologia tecnica corretta in italiano (non solo acronimi!)
-- Es: "Network Address Translation", "demilitarized zone", "lista di controllo degli accessi"
-
----
-
-## 2. DURANTE LA PROVA: METODO DI LAVORO
+## 1. DURANTE LA PROVA: METODO DI LAVORO
 
 ### A) PRIMI 10-15 MINUTI: LETTURA E PIANIFICAZIONE
 
@@ -62,22 +48,23 @@ Il commissario esterno non conosce il vostro percorso, non sa come lavorate abit
 
 ### C) COME STRUTTURARE LE RISPOSTE
 
-📌 **SCHEMA VINCENTE:**
+📌 **SCHEMA GENERALE:**
 
 1. Definizione/Inquadramento teorico
 2. Spiegazione tecnica (come funziona)
-3. Applicazione pratica (quando/perché si usa)
+3. Applicazione pratica (quando/perché/come si usa)
 4. Eventuale esempio o schema
 
 **ESEMPIO PRATICO:**
 
-*Domanda: "Descrivi cos'è una DMZ e quando viene utilizzata"*
+*Domanda (seconda parte): "Descrivi cos'è una DMZ e quando viene utilizzata"*
+
 
 ❌ **RISPOSTA INSUFFICIENTE:**
 > "La DMZ è una zona dove si mettono i server pubblici per proteggerli."
 
 ✅ **RISPOSTA COMPLETA:**
-> "La DMZ (DeMilitarized Zone) è un segmento di rete isolato, posizionato tra la rete interna (LAN) e la rete esterna (Internet), protetto da due firewall. 
+> "La DMZ (DeMilitarized Zone) è un segmento di rete isolato, posizionato tra la rete interna (LAN) e la rete esterna (Internet), protetto da uno o due firewall. 
 >
 > Dal punto di vista architetturale, nella DMZ vengono collocati i server che devono essere accessibili dall'esterno (web server, mail server, FTP) mantenendo protetta la rete interna aziendale. Il primo firewall filtra il traffico proveniente da Internet verso la DMZ, mentre il secondo firewall protegge la LAN interna da eventuali compromissioni dei server in DMZ.
 >
@@ -85,7 +72,7 @@ Il commissario esterno non conosce il vostro percorso, non sa come lavorate abit
 
 ---
 
-## 3. COSA VALORIZZARE (cosa fa la differenza)
+## 2. COSA VALORIZZARE (cosa fa la differenza)
 
 ### ✓ TERMINOLOGIA TECNICA CORRETTA
 - Usare i termini precisi, non "all'incirca"
@@ -101,37 +88,35 @@ Il commissario esterno non conosce il vostro percorso, non sa come lavorate abit
 
 ### ✓ DISEGNARE SCHEMI quando utile
 - Un'architettura di rete, uno schema di crittografia asimmetrica
-- Uno schema chiaro vale quanto 20 righe di testo confuso
+- Uno schema chiaro aiuta a comprendere meglio il testo
+- Ma in ogni caso il testo è necessario: non affidarsi solo agli schemi
 
 ---
 
-## 4. ERRORI DA EVITARE ASSOLUTAMENTE
+## 3. ERRORI DA EVITARE ASSOLUTAMENTE
 
 ❌ **Rispondere "a sensazione" senza rileggere la domanda**
 - Rileggete la domanda PRIMA di scrivere ogni risposta
 
 ❌ **Usare gergalismi o termini inventati**
-- "La chiave pubblica cripta" → NO. "La chiave pubblica cifra" → SÌ
+- "La chiave pubblica nasconde" → NO. "La chiave pubblica cifra" → SÌ
 - Evitare: "hackare", "bucare", "proteggere forte"
 
 ❌ **Lasciare risposte vuote o scrivere "non lo so"**
 - Scrivete SEMPRE qualcosa di sensato, anche definizioni base
 
 ❌ **Scrivere risposte generiche e vaghe**
-- "Il firewall serve per la sicurezza" → troppo generico
-- "Il firewall analizza il traffico di rete secondo regole (ACL) per bloccare/consentire pacchetti in base a IP, porte e protocolli" → specifico
-
-❌ **Dimenticare unità di misura, formati, notazioni**
-- Es: "255.255.255.0", "192.168.1.0/24", "AES-256", "RSA-2048"
+- NO: "Il firewall serve per la sicurezza" → troppo generico
+- OK: "Il firewall analizza il traffico di rete secondo regole (ACL) per bloccare/consentire pacchetti in base a IP, porte e protocolli" → specifico
 
 ---
 
-## 5. ASPETTI FORMALI E PRESENTAZIONE
+## 4. ASPETTI FORMALI E PRESENTAZIONE
 
 ### 📝 SCRITTURA:
-- Calligrafia leggibile (il commissario deve capire cosa scrivete!)
-- Usare penna blu/nera, evitare cancellature eccessive
-- Organizzare risposte con paragrafi, non blocchi unici
+- Calligrafia leggibile
+- Usare penna blu/nera, non "nerettare" gli errori, il testo deve rimanere leggibile
+- Organizzare risposte con paragrafi chiaramente identificabili, non blocchi unici 
 
 ### 📝 STRUTTURA:
 - Numerare chiaramente le risposte secondo la traccia
@@ -140,16 +125,16 @@ Il commissario esterno non conosce il vostro percorso, non sa come lavorate abit
 
 ### 📝 LINGUAGGIO:
 - Registro formale, ma non artificioso
-- Frasi chiare e sintattiche corrette
-- Evitare abbreviazioni non standard
+- Frasi chiare, semplici e sintattiche corrette
+- Evitare abbreviazioni non standard (in caso chiedere ai commissari)
 
 ---
 
-## 6. GESTIONE DELLO STRESS
+## 5. GESTIONE DELLO STRESS
 
 ### 💪 PRIMA DELLA PROVA:
 - Dormire bene la notte precedente (più importante del ripasso last-minute)
-- Arrivare con 15 minuti di anticipo per ambientarsi
+- Arrivare con almeno 15 minuti di anticipo per ambientarsi
 
 ### 💪 DURANTE LA PROVA:
 - Se vi bloccate: respirare, rileggere la domanda, scrivere almeno le definizioni
@@ -176,16 +161,8 @@ Il commissario esterno non conosce il vostro percorso, non sa come lavorate abit
 
 ## PROMEMORIA FINALE
 
-Questo vademecum è uno strumento di **METODO**, non sostituisce lo studio dei contenuti.
-
 La seconda prova valuta la vostra preparazione tecnica, ma anche la capacità di comunicare competenze in modo professionale.
 
 Un commissario esterno deve poter leggere il vostro elaborato e pensare: *"Questo studente sa di cosa parla ed è pronto per il mondo del lavoro o l'università"*.
 
 **Mostrate competenza, precisione e professionalità.**
-
-**Buon lavoro! 💻🔒**
-
----
-
-*Prof. [Il tuo nome] – Sistemi e Reti – A.S. 2024/2025*
