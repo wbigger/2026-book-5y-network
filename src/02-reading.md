@@ -21,10 +21,10 @@ I requisiti espliciti sono quelli scritti chiaramente nel testo. Durante la prim
 - Vincoli tecnici ("deve usare la rete esistente", "deve essere separato")
 - Requisiti di sicurezza o accesso remoto
 
-**Esempio dalla prova 2024 (biblioteca con totem):**
-> "...fornitura e installazione di un totem informativo per ogni sala e per gli spazi comuni..."
+**Esempio:**
+> "...fornitura e installazione di un schermi informativi per ogni stanza..."
 
-Qui il requisito esplicito è: un totem per sala + uno per ogni spazio comune. Devo contarli.
+Qui il requisito esplicito è: uno schermo per ogni schermo. Devo contarli.
 
 ---
 
@@ -39,7 +39,7 @@ I requisiti impliciti non sono scritti, ma si ricavano dal contesto o dal buon s
 - Se c'è accesso da remoto, servirà una VPN?
 
 **Esempio:**
-> "I servizi accessibili dai totem sono basati su Web Application con possibilità di accesso degli utenti tramite nome utente e password"
+> "I servizi accessibili dagli schermi interattivi sono basati su applicazioni web con possibilità di accesso degli utenti tramite credenziali personali"
 
 Requisiti impliciti:
 - Serve un database per le credenziali
@@ -63,7 +63,7 @@ Quando il testo non fornisce informazioni sufficienti, è necessario formulare i
 - Motivare brevemente la scelta
 
 **Esempio:**
-> "Si ipotizza che la biblioteca abbia una connessione Internet in fibra ottica da 100 Mbps, sufficiente per il traffico previsto dei totem e della rete esistente."
+> "Si ipotizza che la biblioteca abbia una connessione Internet in fibra ottica da 100 Mbps, sufficiente per il traffico previsto degli schermi interattivi e della rete esistente."
 
 > "Si ipotizza un'affluenza media di 500 utenti al giorno, con un picco di 100 utenti concorrenti."
 
@@ -88,9 +88,9 @@ Prima di iniziare a scrivere la soluzione, dedica 15-20 minuti a:
 
 | Elemento | Quantità | Note |
 |----------|----------|------|
-| Totem | 19 | Uno per sala + spazi comuni |
+| Schermi | 18 | Uno per stanza |
 | Switch esistenti | 4 | Uno per piano + sala computer |
-| Server nuovo | 1 | Per le web application dei totem |
+| Server nuovo | 1 | Per le web application |
 
 **3. Abbozzare uno schema di rete**
 
