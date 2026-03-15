@@ -22,9 +22,9 @@ I requisiti espliciti sono quelli scritti chiaramente nel testo. Durante la prim
 - Requisiti di sicurezza o accesso remoto
 
 **Esempio:**
-> "...fornitura e installazione di un schermi informativi per ogni stanza..."
+> "...fornitura e installazione di un schermi informativi interattivi per ogni stanza..."
 
-Qui il requisito esplicito è: uno schermo per ogni schermo. Devo contarli.
+Qui il requisito esplicito è: uno schermo per ogni stanza. Devo contarli.
 
 ---
 
