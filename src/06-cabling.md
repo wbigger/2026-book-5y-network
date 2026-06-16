@@ -1,4 +1,4 @@
-# 5. Cablaggio strutturato
+# 6. Cablaggio strutturato
 
 ## 1. Cos'è il cablaggio strutturato
 
