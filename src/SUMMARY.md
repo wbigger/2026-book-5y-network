@@ -5,3 +5,4 @@
 - [Dimensionamento](./03-sizing.md)
 - [Diagramma di rete](./04-diagrams.md)
 - [Piano di indirizzamento](./05-subnetting.md)
+- [Cablaggio strutturato](./06-cabling.md)
