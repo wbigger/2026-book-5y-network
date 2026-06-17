@@ -1,20 +1,26 @@
 # 6. Cablaggio strutturato
 
 ## 1. Cos'è il cablaggio strutturato
-
+ 
 Il **cablaggio strutturato** è l'insieme di cavi, connettori, pannelli e apparati passivi che
 costituisce l'infrastruttura fisica di una rete LAN. È progettato in modo **indipendente dalle
 applicazioni**: la stessa infrastruttura supporta dati, voce e video.
-
-Gli standard di riferimento internazionali sono:
-- **TIA-568** (americano, ANSI/TIA)
-- **ISO/IEC 11801** (internazionale)
-
-Entrambi definiscono i sottosistemi, le categorie dei cavi e le distanze massime ammissibili.
-
-🎓 **All'esame:** se la traccia chiede di "progettare il cablaggio" è implicito che si seguano
-questi standard. Non è necessario citarli esplicitamente, ma le scelte devono essere coerenti
-con essi.
+ 
+### Standard di riferimento
+ 
+| Standard | Ambito | Cosa definisce |
+|---|---|---|
+| **CEI EN 50173** | Europeo (recepisce ISO/IEC 11801) | Sottosistemi, categorie dei cavi, distanze massime, prestazioni elettriche |
+| **CEI EN 50174** | Europeo | Installazione fisica: posa dei cavi, separazioni, protezioni, collaudo |
+| ISO/IEC 11801 | Internazionale | Base tecnica recepita dalla EN 50173 |
+| TIA-568 | Americano (ANSI/TIA) | Equivalente nordamericano, spesso citato nei datasheet |
+ 
+In Italia si applicano le norme **CEI EN 50173** e **CEI EN 50174**. Le norme TIA e ISO sono
+equivalenti dal punto di vista tecnico e utili per la comprensione della letteratura internazionale.
+ 
+🎓 **All'esame:** se la traccia chiede di "progettare il cablaggio secondo le norme vigenti",
+il riferimento corretto è **CEI EN 50173** (progetto) e **CEI EN 50174** (installazione).
+Le scelte tecniche devono essere coerenti con questi standard.
 
 ---
 
